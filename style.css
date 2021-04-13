@@ -9,7 +9,7 @@ body {
 
 #menu {
 	background-image: url(./images/bg.jpg);
-	width: 100%;
+	width: 100% !important;
 	height: 1080px !important;
 	padding: 0;
 	margin: 0 !important;
@@ -58,6 +58,7 @@ body {
 }
 
 .input-message {
+	width: 820px;
 	margin-left: 60px;
 	padding-left: 30px;
 	padding-top: 20px;
@@ -291,4 +292,23 @@ img.aligncenter {
 #menu a.menu-items:hover {
 	font-weight: 600;
 	text-decoration: solid;
-} 
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(36, 36, 36); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
