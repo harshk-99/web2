@@ -43,15 +43,24 @@ body {
 
 .contact {
 	padding: 100px 0;
-	width: 1880px;
 }
 
-.input-row-container {
-	margin-left: 60px;
-	margin-right: -60px;
+.second-col {
 }
 
-.input-row1 {
+.contact-row {
+	margin: 0;
+}
+
+.row2 {
+	margin-left: 20px;
+}
+
+.row1 {
+	margin-left: 15px;
+}
+
+.input-com {
 	width: 400px;
 	height: 60px;
 	padding-left: 30px;
@@ -59,13 +68,11 @@ body {
 
 .input-message {
 	width: 820px;
-	margin-left: 60px;
 	padding-left: 30px;
 	padding-top: 20px;
 }
 
 .submit-button {
-	margin-left: 60px;
 	width: 820px;
 	height: 60px;
 	font-weight: 600;
@@ -134,19 +141,6 @@ h2 {
 p, ul, ol {
 	margin-top: 0;
 	margin-bottom: 0;
-}
-
-.tag-one {
-	margin: auto;
-	height: 40%;
-	width: fit-content;
-	align-content: flex-start;
-	background-color: #0000003d;
-}
-
-.image-tag {
-	width: 1260px;
-	height: 400px;
 }
 
 a {
