@@ -7,34 +7,47 @@ body {
 	color: #FFFFFF;
 }
 
-#menu {
+.menu {
 	background-image: url(./images/bg.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 1080px;
-	padding-left: 30px;
 	margin: 0;
 }
 
-.logo {
-	margin: 15px 0;
+.navbar-bg {
+	background-color: rgba(0, 0, 0, 0.301);
 }
 
-.brand {
-	font-size: 40px !important;
-	color: rgb(255, 255, 255) !important;
-	position: relative;
-	top: 25px;
-	right: 25px;
+.navbar-brand {
+	font-size: 40px;
+	font-weight: 900;
 }
 
-.menu-items {
+.navbar-brand:hover {
+	color: white;
+}
+
+.navbar-toggler-icon {
+	color: #FFFFFF !important;
+}
+
+.navbar-brand img {
 	position: relative;
-	left: 90px;
-	padding: 40px 40px !important;
-	font-size: 20px !important;
-	color: #000000 !important;
+	top: -10px;
+}
+
+.nav-item a:hover {
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+.nav-item {
+	font-size: 20px;
+	position: relative;
+	left: 200px;
+	padding: 0 40px;
 }
 
 .contact {
@@ -146,73 +159,6 @@ a {
 	color: #ececec;
 }
 
-/* Logo */
-
-#logo {
-	float: left;
-	height: 100px;
-	margin: 0px;
-	padding: 0px;
-	border: none;
-	
-}
-
-#logo h1, #logo p {
-	margin: 0;
-	padding: 0;
-}
-
-#logo h1 {
-	padding-top: 10px;
-	letter-spacing: -1px;
-	text-shadow: #FFFFFF -1px 1px 2px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 50px;
-}
-
-#logo p {
-	display: block;
-	margin-top: -10px;
-	padding-left: 5px;
-	text-shadow: #808080 -1px 1px 2px;
-	font: normal 18px Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-}
-
-#logo a {
-	border: none;
-	background: none;
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
-/* Menu */
-
-#menu ul {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-	line-height: normal;
-}
-
-#menu li {
-	float: left;
-}
-
-#menu a {
-	display: block;
-	float: left;
-	margin: 0px 2px 0px 0px;
-	padding: 5px 20px;
-	text-decoration: none;
-	text-transform: capitalize;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	color: #FFFFFF;
-	border: none;
-}
-
 #menu a.menu-items:hover {
 	font-weight: 600;
 	text-decoration: solid;
@@ -235,4 +181,10 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+@media only screen and (max-width:1000px) {
+	.menu {
+		height: 600px;
+	}
 }
