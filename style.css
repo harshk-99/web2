@@ -9,10 +9,10 @@ body {
 
 #menu {
 	background-image: url(./images/bg.jpg);
-	width: 100% !important;
-	height: 1080px !important;
-	padding: 0;
-	margin: 0 !important;
+	width: 100%;
+	height: 1080px;
+	padding-left: 30px;
+	margin: 0;
 }
 
 .logo {
@@ -154,30 +154,6 @@ a {
 	color: #ececec;
 }
 
-img.border {
-	/* border: 6px solid #E1F1F6; */
-}
-
-img.alignleft {
-	float: left;
-	margin-right: 25px;
-}
-
-img.alignright {
-	float: right;
-}
-
-img.aligncenter {
-	margin: 0px auto;
-}
-
-#wrapper-bgbtm {
-}
-
-/* Header */
-
-
-
 /* Logo */
 
 #logo {
@@ -218,51 +194,7 @@ img.aligncenter {
 	color: #FFFFFF;
 }
 
-/* Search */
-
-#search {
-	height: 110px;
-	width: 210px;
-	padding: 0;
-}
-
-#search form {
-	height: 50px;
-	padding: 0px;
-}
-
-#search fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-#search h2 {
-	text-align: center;
-}
-
-#search-text {
-	width: 210px;
-	padding:6px;
-	border: none;
-	background: #FFFFFF;
-	text-transform: lowercase;
-	font: normal 11px Arial, Helvetica, sans-serif;
-	color: #7F7F81;
-}
-
-#search-submit {
-	display: none;
-}
-
 /* Menu */
-
-#menu {
-	width: fit-content;
-	height: 50px;
-	margin: 40px 0px 0px 0px;
-	padding: 0px 0px 0px 20px;
-}
 
 #menu ul {
 	margin: 0px;
