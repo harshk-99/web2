@@ -1,20 +1,120 @@
-
-/*
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-*/
-
 body {
 	margin: 0;
 	padding: 0;
-	background: #1e1e1e;
+	background: #000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #FFFFFF;
 }
 
-h1, h2, h3 {
+#menu {
+	background-image: url(./images/bg.jpg);
+	width: 100%;
+	height: 1080px !important;
+	padding: 0;
+	margin: 0 !important;
+}
+
+.logo {
+	margin: 15px 0;
+}
+
+.brand {
+	font-size: 40px !important;
+	color: rgb(255, 255, 255) !important;
+	position: relative;
+	top: 25px;
+	right: 25px;
+}
+
+.menu-items {
+	position: relative;
+	left: 90px;
+	padding: 40px 40px !important;
+	font-size: 20px !important;
+	color: #000000 !important;
+}
+
+.social-icons {
+	padding: 45px 10px;
+	position: relative;
+	left: 400px;
+}
+
+.contact {
+	padding: 100px 0;
+	width: 1880px;
+}
+
+.input-row-container {
+	margin-left: 60px;
+	margin-right: -60px;
+}
+
+.input-row1 {
+	width: 400px;
+	height: 60px;
+	padding-left: 30px;
+}
+
+.input-message {
+	margin-left: 60px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.submit-button {
+	margin-left: 60px;
+	width: 820px;
+	height: 60px;
+	font-weight: 600;
+	color: white;
+}
+
+.contact-left-align {
+	margin-left: 30px;
+	margin-right: 0px; 
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.contact-icons {
+	float: left;
+	color: #DA2250
+}
+
+.contact-icons div{
+	overflow: auto;
+	text-align: left;
+}
+
+.contact-title {
+	padding-left: 90px;
+}
+
+.contact-content {
+	padding-left: 90px;
+	padding-right: 140px;
+	color: rgba(255, 255, 255, 0.781);
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer-icons {
+	padding: 40px 5px;
+}
+
+.end-tag {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 100px;
+	padding-bottom: 20px;
+	color: #AB1A3B;
+}
+
+h1, h2 {
 	text-align: center;
 	margin: 0;
 	padding: 0;
@@ -30,16 +130,9 @@ h2 {
 	font-size: 2.4em;
 }
 
-h3 {
-	font-size: 1.6em;
-}
-
 p, ul, ol {
 	margin-top: 0;
-	line-height: 180%;
-}
-
-ul, ol {
+	margin-bottom: 0;
 }
 
 .tag-one {
@@ -60,10 +153,6 @@ a {
 	color: #ececec;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 img.border {
 	/* border: 6px solid #E1F1F6; */
 }
@@ -79,14 +168,6 @@ img.alignright {
 
 img.aligncenter {
 	margin: 0px auto;
-}
-
-#wrapper {
-	width: fit-content;
-	margin: 0px auto;
-	height: 1910px;
-	background-size: 100% 3000%;
-	/* background: url(images/back1.jpg)  center top; */
 }
 
 #wrapper-bgbtm {
@@ -207,222 +288,7 @@ img.aligncenter {
 	border: none;
 }
 
-/* #menu .current_page_item a {
-	background: #F2AE30;
-	color: #000000;
-} */
-
-#menu a:hover {
-	background: #000000;
+#menu a.menu-items:hover {
+	font-weight: 600;
 	text-decoration: solid;
-	
 } 
-
-/* Page */
-
-#page {
-	width: fit-content;
-}
-
-/* Content */
-
-#content {
-	float: left;
-	width: 900px;
-	padding: 60px 0px 0px 0px;
-}
-
-.post {
-	overflow: hidden;
-	margin-bottom: 50px;
-}
-
-.post .title {
-	letter-spacing: -1px;
-}
-
-.post .title a {
-	border: none;
-	color: #30cbf2;
-}
-
-.post .meta {
-	padding-bottom: 5px;
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-style: italic;
-}
-
-.post .meta a {
-}
-
-.post .entry {
-	text-align: justify;
-	margin-bottom: 25px;
-	padding: 10px 0px 0px 0px;
-}
-
-.links {
-	display: inline-block;
-	width: 350px;
-	padding: 2px 0px 2px 0px;
-	background: #4a4a4e;
-	text-align: left;
-	text-transform: capitalize;
-	font-size: 15px;
-	color: #FFFFFF;
-}
-
-/* Sidebar */
-
-#sidebar {
-	position: absolute;
-	left: 1374px;
-	width: 0px;
-	font-size: 12px;
-}
-
-#sidebar ul {
-	margin: 0;
-	padding: 0px;
-	width: 210px;
-	list-style: none;
-}
-
-#sidebar li {
-	margin: 0;
-	padding: 0;
-}
-
-#sidebar li ul {
-	margin: 0px 20px;
-	padding-bottom: 30px;
-}
-
-#sidebar li li {
-	line-height: 35px;
-	background: url(images/img07.jpg) repeat-x left bottom;
-}
-
-#sidebar li li span {
-	display: block;
-	margin-top: -20px;
-	padding: 0;
-	font-size: 11px;
-	font-style: italic;
-}
-
-#sidebar h2 {
-	height: 29px;
-	margin-bottom: 20px;
-	padding: 11px 0px 0px 30px;
-	background: url(images/img02.gif) no-repeat left top;
-	font-size: 14px;
-	font-weight: normal;
-	color: #000000;
-}
-
-#sidebar p {
-	margin: 0 0px;
-	padding: 0px 20px 20px 20px;
-	text-align: justify;
-	color: #FFFFFF;
-}
-
-#sidebar a {
-	border: none;
-	color: #FFFFFF;
-}
-
-#sidebar a:hover {
-	text-decoration: underline;
-}
-
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-	padding: 20px;
-}
-
-#calendar table {
-	width: 100%;
-}
-
-#calendar tbody td {
-	text-align: center;
-}
-
-#calendar #next {
-	text-align: right;
-}
-
-/* Footer */
-
-.footer{
-	
-    background: #000000;
-    color: #FFFFFF;
-    height: 220px;
-    position: relative;
-	padding-bottom: 0px;
-}
-
-.footer .footer-content {
-	border: 1px solid rgb(80, 75, 75);
-	height: 220px;
-	display: flex;
-}
-
-.footer-selection about {
-	box-sizing:border-box;
-	display:block;
-	float:none;
-	line-height:21px;
-	position:static;
-	z-index:auto;
-}
-
-.footer-selection links {
-	box-sizing : border-box;
-	display:inline-block;
-	float: none;
-	line-height: 15px;
-	position:relative;
-}
-.footer .footer-content .footer-section {
-	flex: 1;
-	padding: 40px;
-	border: 1px solid white;
-}
-
-
-.footer .footer-content h1, .footer .footer-content h2 {
-    color: white;
-}
-
-.footer .footer-content .about h1 span {
-    color: rgb(68, 135, 212);
-}
-
-.footer-bottom  {
-	background-color: #363638;
-	color: #ececec;
-	box-sizing:border-box;
-	display:block;
-	float:none;
-	line-height: 0px;
-	text-align: center;
-	position:static;
-	z-index:auto;
-	text-align: center;
-}
-
-.contact span{
-    display: block;
-    font-size: 1.1em;
-    margin-bottom: 8px;
-}
